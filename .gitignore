@@ -1,5 +1,5 @@
 node_modules/
-
+.htaccess
 .DS_Store
 .gitattributes
 .idea
