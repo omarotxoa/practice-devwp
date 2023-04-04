@@ -12,6 +12,10 @@ License URI: LICENSE
 
 A starter theme called DevWP.
 
+== Description ==
+
+A theme for practice
+
 == Installation ==
 
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
