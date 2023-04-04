@@ -38,7 +38,7 @@ node_modules/
 
 # wp-content
 /wp-content/*
-# !/wp-content/plugins/
+!/wp-content/plugins/
 
 # !/wp-content/themes/
 /wp-content/themes/*
