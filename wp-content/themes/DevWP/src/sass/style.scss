@@ -1,0 +1,54 @@
+/*!
+Theme Name: DevWP
+Theme URI: https://www.pixemweb.com/devwp/
+Author: Omar Ochoa
+Author URI: http://www.omarochoa.com
+Description: A theme for practice
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: devwp
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+DevWP is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+
+/*--------------------------------------------------------------
+# Bootstrap
+--------------------------------------------------------------*/
+
+@import './node_modules/bootstrap/scss/bootstrap';
+
+
+/*--------------------------------------------------------------
+# Fontawesome
+--------------------------------------------- */
+@import "./node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "./node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "./node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "./node_modules/@fortawesome/fontawesome-free/scss/regular";
+
+
+@import 'custom/colors';
+@import 'custom/mixins';
+@import 'custom/header';
+@import 'custom/menus';
+@import 'custom/links';
+@import 'custom/buttons';
+@import 'custom/fields';
+@import 'custom/posts-and-pages';
+@import 'custom/widgets';
+@import 'custom/media';
+@import 'custom/tables';
+@import 'custom/footer';
+@import 'custom/social-menu';
+@import 'custom/accessibility';
+@import 'custom/alignments';
