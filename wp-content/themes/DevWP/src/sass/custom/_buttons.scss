@@ -1,0 +1,11 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 0;
+	background: $color__dark_gray;
+	color: $color__white;
+	line-height: 1;
+	padding: .8em 1.5em;
+	transition: background 0.2s;
+}
